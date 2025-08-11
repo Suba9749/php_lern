@@ -1,5 +1,5 @@
 <?php
-if(isset($_GET['name'])) {
+if(isset($_GET['id'])) {
     $contact_file='contacts.json';
     $contacts=file_exists($contact_file) ? json_decode(file_get_contents($contact_file), true) : [];
 
