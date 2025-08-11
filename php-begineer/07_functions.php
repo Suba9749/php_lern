@@ -12,8 +12,15 @@
 // }
 // greet("Subhankar");
 
-function greet($name ="guest"){
-    echo "hello  , $name! <br>";
+// function greet($name ="guest"){
+//     echo "hello  , $name! <br>";
+// }
+// greet();
+// greet("Subhankar");
+
+function multiply($a, $b){
+    return $a * $b;
 }
-greet();
-greet("Subhankar");
+$result =multiply(5, 10);
+echo "The result is: $result <br>";
+
